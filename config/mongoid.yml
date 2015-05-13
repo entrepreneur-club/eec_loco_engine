@@ -1,0 +1,26 @@
+development:
+  sessions:
+    default:
+      database: eec_engine_dev
+      hosts:
+        - localhost:27017
+  options:
+    identity_map_enabled: true
+
+test:
+  sessions:
+    default:
+      database: eec_engine_test
+      hosts:
+        - localhost:27017
+  options:
+    identity_map_enabled: true
+
+production:
+  sessions:
+    default:
+      database: eec_engine_production
+      hosts:
+        - localhost:27017
+  options:
+    identity_map_enabled: true
