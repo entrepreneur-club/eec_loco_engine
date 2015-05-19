@@ -3,9 +3,9 @@
     brew install mongodb
     git clone git@github.com:panter/eec_loco_engine.git
     cd eec_loco_engine
-	bundle install
-	make reset
-	foreman start
+    bundle install
+    make reset
+    foreman start
 
 * Go to <http://localhost:8080>!
 * Login is `Login: it@entrepreneur-club.org, abc123`
