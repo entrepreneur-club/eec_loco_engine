@@ -19,7 +19,7 @@ local:
   password: abc123
 ```
 
-Then, use `wagon push local --force` from your wagon location to push for the first time.
+Then, use `wagon push local --force --data` from your wagon location to push for the first time.
 
 ## Reset site
 You can execute
