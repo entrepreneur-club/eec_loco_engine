@@ -1,13 +1,13 @@
 # EEC Locomotive test engine
 
     brew install mongodb
-    git clone git@github.com:panter/eec_loco_engine.git
+    git clone git@github.com:entrepreneur-club/eec_loco_engine.git
     cd eec_loco_engine
     bundle install
     make reset
     foreman start
 
-* Go to <http://localhost:8080>!
+* Go to <http://localhost:8080/locomotive>!
 * Login is `Login: it@entrepreneur-club.org, abc123`
 * Then, go to <http://localhost:8080/locomotive/my_account/edit>
 * Click on `Credentials`
